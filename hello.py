@@ -2,7 +2,7 @@
 print("Hello world")
 
 #Boolean
-print(true)
+print('true')
 
 #floating point
 a=56.4
