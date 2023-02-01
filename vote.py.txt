@@ -1,0 +1,7 @@
+#progam to check nationality
+nationality=input("Enter your nationality:")
+age=int(input("Enter your age:"))
+if nationality=="Kenyan" and age>=18:
+  print("Eligible to vote")
+else:
+  print("Not eligible to vote")
