@@ -1,0 +1,7 @@
+#program to assign discount
+amount_purchased=int(input("Enter the amount purchased:"))
+if(amount_purchased>=1000):
+  discount=0.05*amount_purchased;
+  print("Assign discount",discount)
+else:
+  print("No discount")
