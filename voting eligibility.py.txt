@@ -1,0 +1,9 @@
+#Voting eligibility
+requirements=["Kenya","Tanzania","Uganda"]
+age=int(input("Enter age:"))
+voter=input("Enter the nationality:")
+if voter in requirements and age>=18:
+  print("Eligible to vote")
+else:
+  print("Not eligible to vote")
+
