@@ -1,6 +1,4 @@
 #program to illustrate single inheritance
-()
-
 class Animal:
   def legs(self):
     print("I have four legs")
